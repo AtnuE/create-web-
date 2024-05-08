@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="qki.css">
+    <title>QUAN LI HOC SINH </title>
+</head>
+<body background="https://i.pinimg.com/originals/0a/6b/85/0a6b85c8dd54bc1b0b996cad8cf4408c.jpg">
+   
+  <div class="body">
+    <div class="body-box">  
+    <h1>Đăng kí</h1>
+    <div class="full-name">Họ và tên
+        <span class="box1"></span>
+        <input type="text" >
+     </div>
+     <div class="user-name">Tên đăng nhập
+        <span class="box1"></span>
+        <input type="text" >
+     </div>
+     <div class="password">Mật khẩu
+        <span class="box1"></span>
+        <input type="text" >
+     </div>
+     <div class="birth-day">Ngày sinh
+        
+        <input type="date" >
+     </div>
+     <div class="sexual">Giới tính
+        <input type="radio" name="role" value="Nam">Nam
+        <input type="radio" name="role" value="Nữ">Nữ
+     </div>
+     <button onclick="changtext()">
+        Đăng Kí
+    </button>
+    <h1 id="h1id">Trạng thái đăng kí</h1>
+    <script>
+        changtext = () =>{
+            document.getElementById("h1id").innerHTML="Hoàn tất đăng kí";
+        }
+    </script>
+    
+  </div>  
+</body>
+</html>
